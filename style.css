@@ -1,0 +1,20 @@
+button {
+    background-color: yellow;
+    border: 1px solid black;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    text-align: end;
+}  

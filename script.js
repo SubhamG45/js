@@ -1,19 +1,10 @@
-class toyotaCar{
-    start(){
-        console.log("start");
+setTimeout(() =>{
+    console.log("hello subham i am coming in 5 sec")
+},5000);
 
-    }
-
-     stop(){
-        console.log("stop");
-        
-    }
-    setBrand(brand){
-        this.brandName=brand;
-    }
+function namee(){
+    console.log("subham");
 }
+ setTimeout(namee,3000);
 
 
-let fortuner=new toyotaCar();
-fortuner.setBrand("fortuner");
-let creta = new toyotaCar();    
